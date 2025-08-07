@@ -28,7 +28,7 @@ export default function LineChart({ rawData }) {
       },
       {
         label: 'kW - Scala Secondaria',
-        data: rawData.slice(3, 6).map(item => item.value),
+        data: rawData.slice(3, 6).map(item => item.value + 2000),
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.2)',
         yAxisID: 'y1',

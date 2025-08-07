@@ -28,7 +28,7 @@ export default function Dashboard() {
     let intervalOp = setInterval(_ => {
       setSamples(createSample());
       console.log(samples)
-    }, 2000)
+    }, 4000)
 
   }, [])
 
